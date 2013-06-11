@@ -1,0 +1,48 @@
+.. _reflectarray:
+
+Reflectarray Antennas
+=====================================
+
+Introduction
+----------------
+
+.. figure:: ./images/Reflectarray.png
+	:align: center
+	:scale: 100 %
+
+	A reflectarray Antenna
+
+Reflectarray Antennas consist of a flat printed array of elements illuminated by one or more small feed antennas. Elements of the array are designed in a way that the overall radiation pattern of the antenna array matches the radiation specifications (e.g. pencil beam, fan beam, etc.)
+
+
+.. seealso::
+	:ref:`array`
+
+
+Unlike conventional array antennas reflectarrays do not reqire  complex feed circuitry. 
+
+The range of application of Reflectarray antennas vary from local wireless communication systems to space-born satellite communication [#sat]_.
+
+In recent decades, re-configurable elements have been utilized in reflectarray antenna structure enabling low profile,high gain re-configurable antennas for beam scanning applications. 
+
+.. [#sat] Ref
+
+
+
+chagolebaghol Antennas
+-----------------------------
+
+
+
+More Tests
+-------------------------------
+
+
+
+
+.. toctree::
+   :maxdepth: 2
+   
+
+
+

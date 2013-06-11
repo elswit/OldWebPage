@@ -1,0 +1,49 @@
+.. _bio:
+
+Bioraphy
+===============================
+
+.. figure:: ./images/me.jpg
+	:scale: 20 %
+	:align: center
+	:figwidth: 90 %
+
+
+Contact 
+---------------
+
+.. hlist::
+	:columns: 2
+	
+	* Ferdowsi University
+	* Communication & Computer Research Center
+	* Email: arash.sarshar@stu.um.ac.ir
+	* Azadi Square, Mashhad, Iran.
+	* Phone: +989366792033
+	* Phone: +98511 
+
+
+Research Interests
+-------------------------------
+* Antennas and Propagation
+* Numerical Methods in Electromagnetics
+* Microwave and mmWave Technologies
+* High Performance Scientific Computing
+
+Education
+-------------------------
+* MSc Telecommunications, `Ferdowsi University`_, 2009-2012
+* BSc Electrical Engineering, `Shahid Beheshti University`_ 2004-2008
+
+Teaching Experience
+---------------------------
+* ''Antenna and Wave Propagation'' course, `Bahar Institute of Hiher Education`_
+* ''Fields and Wave Propagation'course (Teaching Asistantship), `Ferdowsi University`_
+
+.. _`Bahar Institute of Hiher Education`: http://www.bahar.ac.ir
+.. _`Ferdowsi University`: http://um.ac.ir
+.. _`Shahid Beheshti University`: http://sbu.ac.ir
+
+Work Experience
+---------------------------
+

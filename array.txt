@@ -1,0 +1,45 @@
+.. _array:
+
+Array Pattern Synthesis
+========================
+
+The Synthesis Problem 
+--------------------------
+
+
+
+.. math ::
+	
+	
+	F(u,v)= \sum_{m,n} a_{mn} e^{j(mu+nv)}\\
+	 u=k_0 a \sin{\theta} \cos{\phi}$\\
+	  v=k_0 b \sin{\theta} \sin{\phi}$\\
+
+Ideal and Realistic Radiation Patterns
+-----------------------------------------
+
+.. image:: ./images/penc1.*
+	:scale: 40 %
+.. image:: ./images/sqp_pat.*
+	:scale: 40 %
+	
+
+
+
+.. toctree::
+   :maxdepth: 2
+
+
+.. index::
+	single: array
+	see:	antenna array; array 
+	single: pattern
+	see:	parren synthesis; pattern
+	single: reflectarray
+	
+
+
+
+
+
+
