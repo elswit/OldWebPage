@@ -1,0 +1,48 @@
+.. _mach_zender:
+
+===========================================================
+Optical Filter Using Cascade Mach-Zehnder Interferometers 
+===========================================================
+
+Mach-Zehnder Interferometer
+----------------------------
+
+`Mach-Zendher Interferometer`__ is based on an optical branch line coupler which theoretically can be described as a two-port network. The input wave is directed in two separate optical paths, Therefore a relative phase shift is introduced that is proportional to the difference in the distance traveled by the wave. When the waves travellig in each optical pathway are coupled together again a diffraction pattern is produced in each output port. The power exiting each port is dependent on the path delay (:math:`\Delta \tau_m`) and wavelength (:math:`\lambda`)
+
+.. figure:: ./images/inter_schematic.png
+	:scale: 90 %
+	
+	Simple representation of Mach-Zehnder Interferometer [*]_
+	
+Text
+
+.. [*] http://
+.. __: http:// 
+
+Transmission Characteristics of cascade M-Z Interferometers
+------------------------------------------------------------
+
+
+Design of Bandpass Optical Filters based on M-Z Interferometers
+---------------------------------------------------------------------
+
+Using Evolutionary Strategies
+::::::::::::::::::::::::::::::::
+
+
+Testing The EA Algorithm with a Deceptive Function
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Rastrigin's Deceptive function was used to asses the ability of EA in tackling the local minimums. Rastrigin function has a global minimum at (0,0) and many local minimum and maximums. Rastrigind 2D function is defined as:
+
+.. math::
+	f(\bar x)= 10n + \sum \limits_{i=1}^{n} {{x_i}^2 - 10 \cos{2\pi x_i}} 
+
+.. figure:: ./images/untitled.png
+	:scale: 40 %
+	
+
+Results
+-------------
+
+
