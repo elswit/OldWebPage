@@ -1,7 +1,7 @@
 .. _bio:
 
-Bioraphy
-===============================
+Biography
+==========
 
 .. figure:: ./images/me.jpg
 	:scale: 20 %
@@ -37,13 +37,12 @@ Education
 
 Teaching Experience
 ---------------------------
-* ''Antenna and Wave Propagation'' course, `Bahar Institute of Hiher Education`_
-* ''Fields and Wave Propagation'course (Teaching Asistantship), `Ferdowsi University`_
+* ''Antenna and Wave Propagation'' course, `Bahar Institute of Higher Education`_
+* ''Fields and Wave Propagation'course (Teaching Assistantship), `Ferdowsi University`_
 
-.. _`Bahar Institute of Hiher Education`: http://www.bahar.ac.ir
+.. _`Bahar Institute of Higher Education`: http://www.bahar.ac.ir
 .. _`Ferdowsi University`: http://um.ac.ir
 .. _`Shahid Beheshti University`: http://sbu.ac.ir
 
-Work Experience
----------------------------
+
 

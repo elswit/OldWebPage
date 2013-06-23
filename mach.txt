@@ -7,7 +7,7 @@ Optical Filter Using Cascade Mach-Zehnder Interferometers
 Mach-Zehnder Interferometer
 ----------------------------
 
-`Mach-Zendher Interferometer`__ is based on an optical branch line coupler which theoretically can be described as a two-port network. The input wave is directed in two separate optical paths, Therefore a relative phase shift is introduced that is proportional to the difference in the distance traveled by the wave. When the waves travellig in each optical pathway are coupled together again a diffraction pattern is produced in each output port. The power exiting each port is dependent on the path delay (:math:`\Delta \tau_m`) and wavelength (:math:`\lambda`)
+`Mach-Zendher Interferometer`__ is based on an optical branch line coupler which theoretically can be described as a two-port network. The input wave is directed in two separate optical paths, Therefore a relative phase shift is introduced that is proportional to the difference in the distance traveled by the wave. When the waves traveling in each optical pathway are coupled together again a diffraction pattern is produced in each output port. The power exiting each port is dependent on the path delay (:math:`\Delta \tau_m`) and wavelength (:math:`\lambda`)
 
 .. figure:: ./images/inter_schematic.png
 	:scale: 90 %
@@ -16,18 +16,29 @@ Mach-Zehnder Interferometer
 	
 Text
 
-.. [*] http://
-.. __: http:// 
+.. [*] Illustration from Govind P. Agrawal,`` Fiber Optic Communication Systems'', Page 366
+.. __: http://www.cs.princeton.edu/courses/archive/fall06/cos576/papers/zetie_et_al_mach_zehnder00.pdf
 
 Transmission Characteristics of cascade M-Z Interferometers
-------------------------------------------------------------
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+The overall filter transmission is the product of the transmission characteristic of each filter in the chain, therefore:
+
+.. math::
+
+	T(\nu)=\prod _i {T_i(\nu)}= \prod _i {\cos^2(\pi t_i \nu)}
 
 
 Design of Bandpass Optical Filters based on M-Z Interferometers
 ---------------------------------------------------------------------
+Optical filters are categorized as one the building blocks of optical networks. Many optical devices such as Multiplexers and Demultiplexers are based on optical filters. In a fiber communication network system, an optical filter can single out one or series of channels that are superimposed using wavelength division multiplexing in the in fiber. 
+In practice, a cascade of Maach-Zehnder Interferometers can be fabricated as planar waveguides using Silica on Silicon technology.
+
 
 Using Evolutionary Strategies
 ::::::::::::::::::::::::::::::::
+
+Basic design parameters considered are optical filter's center frequency and bandwidth. Since the design procedure is iterative, in each step the current design is compared with an ideal edge-sharp filter with the desired characteristics and an Error function is constructed. The Evolutionary Strategy Algorithm is then used to minimize this error.
 
 
 Testing The EA Algorithm with a Deceptive Function
@@ -41,8 +52,32 @@ Rastrigin's Deceptive function was used to asses the ability of EA in tackling t
 .. figure:: ./images/untitled.png
 	:scale: 40 %
 	
+	Rastrigin's 2D function for :math:`x \in [-5,5]`
+
+After the ES Algorithm is run the last generation's fitness(Error) values show that the Algorithm converges to the local minimum: 
+
+.. figure:: ./images/rastrig-final.png
+	:scale: 100%
+	
+	Results for Rastrigin test function
+	
+  
+	
 
 Results
 -------------
+
+Result
+
++--------+----------------------------+----------------+-----------------+----------------------+
+| Design |Filter Specifications       |    Minimum T   |    Maximum T    |      Number of       |
+|        |Center Freq.(Thz),BW (%)    |                |                 |      M-Z elements    |
++========+============================+================+=================+======================+
+|    A   |body row 1, column 1        |    column 2    |     column 3    |       column 4       |
++--------+----------------------------+----------------+-----------------+----------------------+
+|    B   |  body row 2                |   ...          |     ...         |                      |
++--------+----------------------------+----------------+-----------------+----------------------+
+
+
 
 

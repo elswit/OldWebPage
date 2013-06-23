@@ -1,40 +1,70 @@
 .. _array:
 
+========================
 Array Pattern Synthesis
 ========================
 
 The Synthesis Problem 
 --------------------------
-
+In the most general context, the array Synthesis problem is finding the excitations ( :math:`a_{mn} e^{j \phi_{mn}}`) of a one or two dimensional array of elements in a way that the overall radiation pattern (derived below) approximates the ideal pre-defined radiation pattern or Gain specifications. 
 
 
 .. math ::
 	
 	
 	F(u,v)= \sum_{m,n} a_{mn} e^{j(mu+nv)}\\
-	 u=k_0 a \sin{\theta} \cos{\phi}$\\
-	  v=k_0 b \sin{\theta} \sin{\phi}$\\
+	 u=k_0 a \sin{\theta} \cos{\phi}\\
+	  v=k_0 b \sin{\theta} \sin{\phi}\\
 
 Ideal and Realistic Radiation Patterns
 -----------------------------------------
 
+Often the ideal radiation patterns fall into three basic categories: 
+
+(#) **Pencil Beam:** Used for direct *point-to-point* communications, antennas with pencil beam radiation patterns direct electromagnetic energy in a narrow spatial angle resulting in high gains in the boresight.
+
+(#) **Fan Beam:** Named after their fan-shaped radiation plots in polar coordinates, these patterns insure a roughly constant gain a wide angle that can be used in *point-to-multipoint* communications 
+
+(#) **Shaped Beam:** There are also cases in which a certain gain specifications is needed. One example is high altitude stationary satellites used for multimedia broadcasting over specific geographical regions. :cite:`pozar_shaped` [*]_
+
+.. [*] http://en.wikipedia.org/wiki/Geostationary_orbit
+
+
+
 .. image:: ./images/penc1.*
 	:scale: 40 %
+	
 .. image:: ./images/sqp_pat.*
 	:scale: 40 %
-	
+
+Reflectarray Radiation Pattern Synthesis 
+-----------------------------------------
+
+A reflectarray antenna is essentially a 2D array antenna. Each element on the surface of the antenna receives the electromagnetic wave radiated from the feed and re-radiates it with small losses. In this case the amplitude of the excitation of each element can be determined by it's location and distance from the feed. In effect knowledge of :math:`|{a_{mn}}|` shrinks the `search space`__ of the problem by half, nevertheless, the `degree of freedom`__ of the problem is also reduced. 
+
+I'm currently working on a hybrid synthesis algorithm that brings Heuristic optimization algorithms and conventional array synthesis methods together. 
+
+
+.. __: http://en.wikipedia.org/wiki/Search_space
+.. __: http://en.wikipedia.org/wiki/Degrees_of_freedom
 
 
 
-.. toctree::
-   :maxdepth: 2
+--------------------------
+References
+--------------------------
+
+.. bibliography:: ./Bibs/bib_array.bib
+
+see :ref:`mainref`
+
 
 
 .. index::
 	single: array
 	see:	antenna array; array 
 	single: pattern
-	see:	parren synthesis; pattern
+	see:	pattern synthesis; pattern
 	single: reflectarray
 	
 

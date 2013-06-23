@@ -4,7 +4,7 @@
 Home
 =====================================
 
-Table of Contents
+Curriculum Vitae
 -----------------
 
 
@@ -13,15 +13,24 @@ Table of Contents
 
 	bio
 
-Previous Research 
--------------------
+Antenna and Propagation
+--------------------------
 
 .. toctree::
 	reflectarray
 	array
 	patch
- 	
+	
 
+Numerical Methods in Electromagnetics
+---------------------------------------- 	
+ 	
+ 	
+Other Topics
+--------------
+
+.. toctree::
+	mach
 
 
 .. index::
@@ -29,10 +38,14 @@ Previous Research
 	single: Pattern
 	single: Reflectarray
 	
+	
 
-Indices and tables
+References
 ==================
 
+.. toctree::
+	references
+	
 
 * :ref:`search`
 
