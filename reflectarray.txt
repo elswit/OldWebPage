@@ -12,16 +12,15 @@ Introduction
 	:align: center
 	:scale: 100 %
 
-	A reflectarray Antenna
 
-Reflectarray Antennas consist of a flat printed array of elements illuminated by one or more small feed antennas. Elements of the array are designed in a way that the overall radiation pattern of the antenna array matches the radiation specifications (e.g. pencil beam, fan beam, etc.)
-
+Reflectarray antennas are a hybrid form of antennas bringing the advantageous features of array antennas and reflector antennas together. Unlike conventional array antennas reflectarrays do not require complex feed circuitry inorder to radiate in predefiend radiation patterns. In reflectarray antennas a flat printed array of elements is illuminated by a source feed,  which is usually a small horn antenna. Each element receives the incident electromagnetic wave and re-radiates it with a certain phase shift. The overall reflectarray radiation pattern depends on the array factor, element radiation pattern and also the feed pattern. Various elements have been designed and employed for reflectarray antennas, ranging from stub-loaded patch elements, aperture coupled patches, loops, dipoles and ring elements.
+In my thesis (:ref:`thesis`) two novel elements are proposed: A stacked stub-loaded patch element for X-band linear polarization antenna with `True Time Delay <http://scholar.google.com/scholar?hl=en&q=True+Time+Delay>`_ structure, and an aperture coupled patch  element  with  T-shaped  slots  for  dual  linear  or  circular  polarization  X-band reflectarray antenna. The performance of the elements is evaluated with the aid of full wave electromagnetic simulation software and the results are reported.
+Also a new phase synthesis algorithm is developed for the radiation pattern synthesis of reflectarray antennas. Heuristic search methods are used for the synthesis of a shaped beam reflectarray and the efficiency of the methods are compared.
 
 .. seealso::
 	:ref:`array`
 
 
-Unlike conventional array antennas reflectarrays do not require complex feed circuitry. 
 
 
 Applications

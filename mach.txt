@@ -1,4 +1,4 @@
-.. _mach_zender:
+.. _mach_zehnder:
 
 ===========================================================
 Optical Filter Using Cascade Mach-Zehnder Interferometers 
@@ -14,10 +14,9 @@ Mach-Zehnder Interferometer
 	
 	Simple representation of Mach-Zehnder Interferometer [*]_
 	
-Text
 
-.. [*] Illustration from Govind P. Agrawal,`` Fiber Optic Communication Systems'', Page 366
-.. __: http://www.cs.princeton.edu/courses/archive/fall06/cos576/papers/zetie_et_al_mach_zehnder00.pdf
+
+
 
 Transmission Characteristics of cascade M-Z Interferometers
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
@@ -78,6 +77,9 @@ Result
 |    B   |  body row 2                |   ...          |     ...         |                      |
 +--------+----------------------------+----------------+-----------------+----------------------+
 
+
+.. [*] Illustration from Govind P. Agrawal,`` Fiber Optic Communication Systems'', Page 366
+.. __: http://www.cs.princeton.edu/courses/archive/fall06/cos576/papers/zetie_et_al_mach_zehnder00.pdf
 
 
 

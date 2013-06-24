@@ -17,7 +17,7 @@ Contact
 	
 	* Ferdowsi University
 	* Communication & Computer Research Center
-	* Email: arash.sarshar@stu.um.ac.ir
+	* Email: arash.sarshar@gmail.com
 	* Azadi Square, Mashhad, Iran.
 	* Phone: +989366792033
 	* Phone: +98511 
@@ -34,6 +34,21 @@ Education
 -------------------------
 * MSc Telecommunications, `Ferdowsi University`_, 2009-2012
 * BSc Electrical Engineering, `Shahid Beheshti University`_ 2004-2008
+
+.. _thesis:
+
+Thesis and Projects
+----------------------
+
+
+* *Design of a Reflectarray Antenna with Co-secant Squared Radiation Pattern Using Evolutionary Algorithms*, MS Thesis, Ferdowsi University, 2012.(:download:`abstract </images/abstract.pdf>`)
+* Numerical Analysis of a Unit Cell for Periodic Structures using FDTD Method,  Project for *``Numerical Methods in Electromagnetics''* course, Fall 2010.
+* Design of a Dual-Band Aperture Coupled Microstrip Antenna with EBG Ground Layer for Bandwidth Improvement, MS Thesis Work, Ferdowsi University, Fall 2011
+* Design of a Bandpass Optical Filter consisting of Cascade Mach Zender Interferometers Using Evolutionary Strategies}, Project for *``Optimiztion Methods''* course, Fall 2009 (:ref:`+ <mach_zehnder>`)
+* YIG Filter Analysis and Design, Comprehensive Report on the subject as final project for B.Sc. Degree, Spring 2008.
+* Numerical Analysis of Step-in-width Waveguides using Mode Matching Method*, Project for *`Advanced Field and Wave Electromagnetics''* course, Fall 2007
+* Design and Testing of an experimental RFID gate with passive resonant antenna, Project for *``Electronics Lab III''*, Fall 2007
+
 
 Teaching Experience
 ---------------------------
