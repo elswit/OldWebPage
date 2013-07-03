@@ -3,11 +3,21 @@
 Biography
 ==========
 
-.. figure:: ./images/me.jpg
-	:scale: 20 %
-	:align: center
-	:figwidth: 90 %
+**Arash Sarshar**
 
+Born:   8/1985
+
+Hometown: Mashhad,Iran  
+
+.. image:: ./images/me.jpg
+	:scale: 20 %
+	:align: right
+	
+
+Gender: Male
+
+
+	
 
 Contact 
 ---------------

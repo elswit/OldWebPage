@@ -35,7 +35,7 @@ Often the ideal radiation patterns fall into three basic categories:
 	:scale: 40 %
 	
 .. image:: ./images/sqp_pat.*
-	:scale: 40 %
+	:scale: 43 %
 
 Reflectarray Radiation Pattern Synthesis 
 -----------------------------------------

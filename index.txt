@@ -4,14 +4,24 @@
 Home
 =====================================
 
+**Arash Sarshar Persoanl Webpage**
+
 Curriculum Vitae
 -----------------
+
+
+.. figure:: ./images/fancygif1.gif
+	:scale: 60 %
+	:align: right
 
 
 .. toctree::
 	:maxdepth: 2
 
 	bio
+
+
+
 
 Antenna and Propagation
 --------------------------
@@ -20,6 +30,10 @@ Antenna and Propagation
 	reflectarray
 	array
 	patch
+
+.. figure:: ./images/fancy1.png
+	:scale: 50 %
+	:align: right
 	
 
 Numerical Methods in Electromagnetics
@@ -31,6 +45,9 @@ Other Topics
 
 .. toctree::
 	mach
+
+
+
 
 
 .. index::

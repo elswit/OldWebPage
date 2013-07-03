@@ -40,10 +40,10 @@ Using Evolutionary Strategies
 Basic design parameters considered are optical filter's center frequency and bandwidth. Since the design procedure is iterative, in each step the current design is compared with an ideal edge-sharp filter with the desired characteristics and an Error function is constructed. The Evolutionary Strategy Algorithm is then used to minimize this error.
 
 
-Testing The EA Algorithm with a Deceptive Function
+Testing The ES Algorithm with a Deceptive Function
 ::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Rastrigin's Deceptive function was used to asses the ability of EA in tackling the local minimums. Rastrigin function has a global minimum at (0,0) and many local minimum and maximums. Rastrigind 2D function is defined as:
+Rastrigin's Deceptive function was used to asses the ability of EA in tackling the local minimums. `Rastrigin <http://tracer.lcc.uma.es/problems/rastrigin/rastrigin.html>`_ function has a global minimum at (0,0) and many local minimum and maximums. Rastrigind 2D function is defined as:
 
 .. math::
 	f(\bar x)= 10n + \sum \limits_{i=1}^{n} {{x_i}^2 - 10 \cos{2\pi x_i}} 
@@ -65,17 +65,26 @@ After the ES Algorithm is run the last generation's fitness(Error) values show t
 
 Results
 -------------
+Evolutionary Strategies is implemented with adaptive search sigma to design an optical filter based on 5 element cascade of Mach-Zehnder 
 
-Result
 
-+--------+----------------------------+----------------+-----------------+----------------------+
-| Design |Filter Specifications       |    Minimum T   |    Maximum T    |      Number of       |
-|        |Center Freq.(Thz),BW (%)    |                |                 |      M-Z elements    |
-+========+============================+================+=================+======================+
-|    A   |body row 1, column 1        |    column 2    |     column 3    |       column 4       |
-+--------+----------------------------+----------------+-----------------+----------------------+
-|    B   |  body row 2                |   ...          |     ...         |                      |
-+--------+----------------------------+----------------+-----------------+----------------------+
++----------------------------+----------------+-----------------+----------------------+
+|Filter Specifications       |    Minimum T   |    Maximum T    |      Number of       |
+|Center Freq.(Thz),BW (%)    |    nanosec.    |    nanosec.     |      M-Z elements    |
++============================+================+=================+======================+
+|          4 Thz,10%         |      0.12      |        5        |           5          |
++----------------------------+----------------+-----------------+----------------------+
+
++----------------------------+----------------+-----------------+----------------------+
+|  Algorithm Specifications  |   Iterations   | min Delta T     |   Population Size    |
++============================+================+=================+======================+
+|   :math:`ES(\mu,\sigma)`   |      100       |       0.08      |30 in each Generation |
++----------------------------+----------------+-----------------+----------------------+
+
+
+.. figure:: ./images/Machres.png
+	:scale: 90%
+
 
 
 .. [*] Illustration from Govind P. Agrawal,`` Fiber Optic Communication Systems'', Page 366
