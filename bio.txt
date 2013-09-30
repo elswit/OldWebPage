@@ -45,6 +45,13 @@ Education
 * MSc Telecommunications, `Ferdowsi University`_, 2009-2012
 * BSc Electrical Engineering, `Shahid Beheshti University`_ 2004-2008
 
+Papers and Publication
+--------------------------
+
+* A.Sarshar, A. Tabari,“Design of a Stacked Stub-Loaded Patch Element for X-band Reflectarray Antenna with True Time Delay,”7th European Conference on Antennas and Propagation , Gothenberg,Sweden.
+* A.Sarshar, A.R.Attari. “Reflcetarray Antenna Pattern Synthesis using SQP Optimization (Persian),”Submitted to First Iranian Conference on Electromagnetic Engineering, Tehran, Iran.
+* A.Sarshar, M.Mahdiroodi “Antenna Array Synthesis Using a Hybrid Method of Alternating Projections and Hueristic Optimization,” To be submitted to 21st Telecommunication Forum, TELFOR 2013,Belgrade, Serbia.
+
 .. _thesis:
 
 Thesis and Projects

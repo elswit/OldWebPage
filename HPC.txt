@@ -1,0 +1,74 @@
+.. _HPC:
+
+=====================================
+High Performance Computing
+=====================================
+
+
+Introduction
+---------------
+
+
+
+I am interested in various distributed computing frameworks and their
+applications in engineering problems, in particular Computational
+Electromagnetics. Depending on the hardware available parallelism can be
+acheived via different approaches:
+
+* **Coarse Grain Parallelism** favors spliting the problem between independant *workers*
+
+* **Fine Grain Parallelism** is often implemented in a shared memory structure in which all the *workers* have access to the same variables unless exclusively stated. This approach 
+
+
+
+Adaptive Qadrature 
+--------------------------------
+
+
+.. figure:: ./images/plot.png
+	:align: center
+	:scale: 50 %
+
+
+Multicore Implementation with OpenMP
++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+.. raw:: html
+   :file: omp.html
+
+
+
+MPI Implementation
++++++++++++++++++++++++++++
+
+MPI is a popular 
+
+
+Pthon Implementation
+++++++++++++++++++++++
+
+.. literalinclude:: ../python/Tamrin Plot/Adaptive_Integ.py
+	
+
+
+
+
+
+
+
+
+References
+-----------
+
+.. bibliography:: ./Bibs/bib_reflectarray.bib
+	:cited:
+
+
+   
+
+
+
