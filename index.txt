@@ -20,24 +20,6 @@ Curriculum Vitae
 	bio
 
 
-
-
-Antenna and Propagation
---------------------------
-
-.. toctree::
-	reflectarray
-	array
-	patch
-
-.. figure:: ./images/fancy1.png
-	:scale: 50 %
-	:align: right
-	
-
-Numerical Methods in Electromagnetics
----------------------------------------- 	
- 	
  	
 High Performance Computing
 ---------------------------
@@ -46,29 +28,35 @@ High Performance Computing
 .. toctree::
      HPC
 
+.. figure:: ./images/fancy1.png
+	:scale: 50 %
+	:align: right
+	
 
-Other Topics
----------------------------
+
+
+
+     
+Applied Stochastic Otimization 
+---------------------------------
 
 .. toctree::
 	mach
 
 
 
-
-
-.. index::
-	single: Antenna
-	single: Pattern
-	single: Reflectarray
-	
-	
-
-References
-==================
+Antenna, Propagation and Electromagnetics
+------------------------------------------
 
 .. toctree::
-	references
+	reflectarray
+	array
+	patch
+
+
+
+
+
 	
 
 * :ref:`search`

@@ -1,5 +1,7 @@
 .. _HPC:
 
+.. contents:: In this page
+
 =====================================
 High Performance Computing
 =====================================
@@ -11,27 +13,40 @@ Introduction
 
 
 I am interested in various distributed computing frameworks and their
-applications in engineering problems, in particular Computational
-Electromagnetics. Depending on the hardware available parallelism can be
-acheived via different approaches:
+applications in engineering problems In particular Computational Electromagnetics. Depending on the hardware available parallelism can be achieved via different approaches:
 
-* **Coarse Grain Parallelism** favors spliting the problem between independant *workers*
+* **Coarse Grain Parallelism** favors breaking the problem between independent *workers*. The most prominent platforms available for this approach is Message Passing Interface (MPI) 
 
-* **Fine Grain Parallelism** is often implemented in a shared memory structure in which all the *workers* have access to the same variables unless exclusively stated. This approach 
+* **Fine Grain Parallelism** is often implemented in a shared memory structure in which all the *workers* have access to the same variables unless exclusively stated. OpenMP is a gnu-licensed platform for shared memory parallel computing available for many programming languages including Fortran, C/C++ and Python.
 
 
 
-Adaptive Qadrature 
---------------------------------
+
+Adaptive Quadrature 
+-------------------
+
+Here is a test problem to compare implementations of parallel computing in different frameworks. Consider integration over a non- monotonous function with abrut variations such as [#]_: 
+
+.. math::
+
+	\int_a^b \sin(x) + e^{-100x^2} dx
+
+
+Numerical Integration of such function with fixed integration steps using Simpson or Trapezoid rules has an inherent disadvantage. A wide step might ignore the sharp variations completely. While small steps produce accurate results a fixed step size wastes a lot of cpu cycles calculating the integration in regions that are relatively smooth and their integration with larger steps is accurate enough.
 
 
 .. figure:: ./images/plot.png
 	:align: center
 	:scale: 50 %
+	
 
 
 Multicore Implementation with OpenMP
 +++++++++++++++++++++++++++++++++++++++
+
+.. figure:: ../CPP/OMP/a.png
+	:align: center
+	:scale: 60 %
 
 
 
@@ -45,27 +60,18 @@ Multicore Implementation with OpenMP
 MPI Implementation
 +++++++++++++++++++++++++++
 
-MPI is a popular 
 
 
-Pthon Implementation
+
+Python Implementation
 ++++++++++++++++++++++
 
 .. literalinclude:: ../python/Tamrin Plot/Adaptive_Integ.py
 	
 
+.. [#] The adaptive Quadrature method is described by Randall J. LeVeque in his High Performance Computing `course`_
 
-
-
-
-
-
-
-References
------------
-
-.. bibliography:: ./Bibs/bib_reflectarray.bib
-	:cited:
+.. _`course`: http://faculty.washington.edu/rjl/uwhpsc-coursera/index.html
 
 
    

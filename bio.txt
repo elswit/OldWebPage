@@ -27,18 +27,17 @@ Contact
 	
 	* Ferdowsi University
 	* Communication & Computer Research Center
-	* Email: arash.sarshar@gmail.com
+	* Email: arash DOT sarshar AT gmail DOT com
 	* Azadi Square, Mashhad, Iran.
-	* Phone: +989366792033
-	* Phone: +98511 
+	
 
 
 Research Interests
 -------------------------------
-* Antennas and Propagation
-* Numerical Methods in Electromagnetics
-* Microwave and mmWave Technologies
+* Numerical Methods in Applied Sciences
+* Analytic and Stochastic Optimization
 * High Performance Scientific Computing
+* Antenna, Propagation and Electromagnetic Ananysis
 
 Education
 -------------------------
@@ -48,10 +47,11 @@ Education
 Papers and Publication
 --------------------------
 
-* A.Sarshar, A. Tabari,“Design of a Stacked Stub-Loaded Patch Element for X-band Reflectarray Antenna with True Time Delay,”7th European Conference on Antennas and Propagation , Gothenberg,Sweden.
+* A.Sarshar, A. Tabari,“Design of a Stacked Stub-Loaded Patch Element for X-band Reflectarray Antenna with True Time Delay,”7th European Conference on Antennas and Propagation , Gothenberg,Sweden(Link to `IEEExplore <http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?reload=true&tp=&arnumber=6546931>`_)
 * A.Sarshar, A.R.Attari. “Reflcetarray Antenna Pattern Synthesis using SQP Optimization (Persian),”Submitted to First Iranian Conference on Electromagnetic Engineering, Tehran, Iran.
 * A.Sarshar, M.Mahdiroodi “Antenna Array Synthesis Using a Hybrid Method of Alternating Projections and Hueristic Optimization,” To be submitted to 21st Telecommunication Forum, TELFOR 2013,Belgrade, Serbia.
 
+.. _IEEExplore:
 .. _thesis:
 
 Thesis and Projects
