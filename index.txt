@@ -1,8 +1,5 @@
 .. _main:
 
-=====================================
-Arash Sarshar Persoanl Webpage
-=====================================
 
 
 Curriculum Vitae
@@ -28,16 +25,15 @@ High Performance Computing
 .. toctree::
      HPC
 
+
 .. figure:: ./images/fancy1.png
-	:scale: 50 %
+	:scale: 30 %
 	:align: right
 	
 
 
-
-
      
-Applied Stochastic Otimization 
+Applied Stochastic Optimization 
 ---------------------------------
 
 .. toctree::
@@ -45,13 +41,12 @@ Applied Stochastic Otimization
 
 
 
-Antenna, Propagation and Electromagnetics
-------------------------------------------
+Antenna, Propagation and Electromagnetic Simulation
+----------------------------------------------------
 
 .. toctree::
 	reflectarray
 	array
-	patch
 
 
 

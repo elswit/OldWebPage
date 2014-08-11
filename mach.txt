@@ -7,7 +7,7 @@ Optical Filter Using Cascade Mach-Zehnder Interferometers
 Mach-Zehnder Interferometer
 ----------------------------
 
-`Mach-Zendher Interferometer`__ is based on an optical branch line coupler which theoretically can be described as a two-port network. The input wave is directed in two separate optical paths, Therefore a relative phase shift is introduced that is proportional to the difference in the distance traveled by the wave. When the waves traveling in each optical pathway are coupled together again a diffraction pattern is produced in each output port. The power exiting each port is dependent on the path delay (:math:`\Delta \tau_m`) and wavelength (:math:`\lambda`)
+`Mach-Zendher Interferometer`__ is based on an optical branch line coupler which is theoretically considered a two-port network. The input wave is directed in two separate optical paths, Therefore a relative phase shift is introduced that is proportional to the difference in the distance traveled by the wave. When the waves traveling in each optical pathway are coupled together again a diffraction pattern is produced in each output port. The power exiting each port is dependent on the path delay (:math:`\Delta \tau_m`) and wavelength (:math:`\lambda`)
 
 .. figure:: ./images/inter_schematic.png
 	:scale: 90 %
@@ -49,7 +49,7 @@ Rastrigin's Deceptive function was used to asses the ability of EA in tackling t
 	f(\bar x)= 10n + \sum \limits_{i=1}^{n} {{x_i}^2 - 10 \cos{2\pi x_i}} 
 
 .. figure:: ./images/untitled.png
-	:scale: 40 %
+	:scale: 30 %
 	
 	Rastrigin's 2D function for :math:`x \in [-5,5]`
 
