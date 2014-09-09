@@ -1,22 +1,12 @@
 .. _bio:
 
-Biography
+Bio
 ==========
 
-**Arash Sarshar**
-
-Born:   8/1985
-
-Hometown: Mashhad,Iran  
-
 .. image:: ./images/me.jpg
-	:scale: 20 %
-	:align: right
+   :width: 200
+   :align: right
 	
-
-Gender: Male
-
-
 	
 
 Contact 
@@ -25,10 +15,11 @@ Contact
 .. hlist::
 	:columns: 2
 	
-	* Ferdowsi University
-	* Communication & Computer Research Center
+	* Virginia Polytechnic Institute and State University
+	* Computational Science Laboratory
+	* KWII building, 2202 Kraft Drive, Blacksburg VA 
 	* Email: arash DOT sarshar AT gmail DOT com
-	* Azadi Square, Mashhad, Iran.
+	* Phone: 540 231 6932
 	
 
 
@@ -37,10 +28,11 @@ Research Interests
 * Numerical Methods in Applied Sciences
 * Analytic and Stochastic Optimization
 * High Performance Scientific Computing
-* Antenna, Propagation and Electromagnetic Ananysis
+
 
 Education
 -------------------------
+* Curently PhD student in Computer Science and Applications, `VirginiaTech`_ , 2014- 
 * MSc Telecommunications, `Ferdowsi University`_, 2009-2012
 * BSc Electrical Engineering, `Shahid Beheshti University`_ 2004-2008
 
@@ -48,22 +40,17 @@ Papers and Publication
 --------------------------
 
 * A.Sarshar, A. Tabari,“Design of a Stacked Stub-Loaded Patch Element for X-band Reflectarray Antenna with True Time Delay,”7th European Conference on Antennas and Propagation , Gothenberg,Sweden(Link to `IEEExplore <http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?reload=true&tp=&arnumber=6546931>`_)
-* A.Sarshar, A.R.Attari. “Reflcetarray Antenna Pattern Synthesis using SQP Optimization (Persian),”Submitted to First Iranian Conference on Electromagnetic Engineering, Tehran, Iran.
-* A.Sarshar, M.Mahdiroodi “Antenna Array Synthesis Using a Hybrid Method of Alternating Projections and Hueristic Optimization,” To be submitted to 21st Telecommunication Forum, TELFOR 2013,Belgrade, Serbia.
-
 .. _IEEExplore:
-.. _thesis:
+
 
 Thesis and Projects
 ----------------------
-
-
-* *Design of a Reflectarray Antenna with Co-secant Squared Radiation Pattern Using Evolutionary Algorithms*, MS Thesis, Ferdowsi University, 2012.(:download:`abstract </images/abstract.pdf>`)
 * Numerical Analysis of a Unit Cell for Periodic Structures using FDTD Method,  Project for *``Numerical Methods in Electromagnetics''* course, Fall 2010.
-* Design of a Dual-Band Aperture Coupled Microstrip Antenna with EBG Ground Layer for Bandwidth Improvement, MS Thesis Work, Ferdowsi University, Fall 2011
-* Design of a Bandpass Optical Filter consisting of Cascade Mach Zender Interferometers Using Evolutionary Strategies}, Project for *``Optimiztion Methods''* course, Fall 2009 (:ref:`+ <mach_zehnder>`)
-* YIG Filter Analysis and Design, Comprehensive Report on the subject as final project for B.Sc. Degree, Spring 2008.
 * Numerical Analysis of Step-in-width Waveguides using Mode Matching Method*, Project for *`Advanced Field and Wave Electromagnetics''* course, Fall 2007
+* *Design of a Reflectarray Antenna with Co-secant Squared Radiation Pattern Using Evolutionary Algorithms*, MS Thesis, Ferdowsi University, 2012.(:download:`abstract </images/abstract.pdf>`)
+* Design of a Bandpass Optical Filter consisting of Cascade Mach Zender Interferometers Using Evolutionary Strategies}, Project for *``Optimiztion Methods''* course, Fall 2009 (:ref:`+ <mach_zehnder>`)
+* YIG Filter Analysis and Design, Report on the subject as final project for B.Sc. Degree, Spring 2008.
+
 * Design and Testing of an experimental RFID gate with passive resonant antenna, Project for *``Electronics Lab III''*, Fall 2007
 
 
@@ -75,6 +62,7 @@ Teaching Experience
 .. _`Bahar Institute of Higher Education`: http://www.bahar.ac.ir
 .. _`Ferdowsi University`: http://um.ac.ir
 .. _`Shahid Beheshti University`: http://sbu.ac.ir
+.. _`VirginiaTech`: http://cs.vt.edu
 
 
 
