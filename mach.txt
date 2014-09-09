@@ -30,7 +30,7 @@ The overall filter transmission is the product of the transmission characteristi
 
 Design of Bandpass Optical Filters based on M-Z Interferometers
 ---------------------------------------------------------------------
-Optical filters are categorized as one the building blocks of optical networks. Many optical devices such as Multiplexers and Demultiplexers are based on optical filters. In a fiber communication network system, an optical filter can single out one or series of channels that are superimposed using wavelength division multiplexing in the in fiber. 
+Optical filters are categorized as one the building blocks of optical networks. Many optical devices such as Multiplexers and De-multiplexers are based on optical filters. In a fiber communication network system, an optical filter can single out one or series of channels that are superimposed using wavelength division multiplexing in the in fiber. 
 In practice, a cascade of Maach-Zehnder Interferometers can be fabricated as planar waveguides using Silica on Silicon technology.
 
 
@@ -49,7 +49,9 @@ Rastrigin's Deceptive function was used to asses the ability of EA in tackling t
 	f(\bar x)= 10n + \sum \limits_{i=1}^{n} {{x_i}^2 - 10 \cos{2\pi x_i}} 
 
 .. figure:: ./images/untitled.png
-	:scale: 30 %
+   	:width: 400
+	:align: center
+
 	
 	Rastrigin's 2D function for :math:`x \in [-5,5]`
 
@@ -57,6 +59,9 @@ After the ES Algorithm is run the last generation's fitness(Error) values show t
 
 .. figure:: ./images/rastrig-final.png
 	:scale: 100%
+	:align: center
+
+	
 	
 	Results for Rastrigin test function
 	

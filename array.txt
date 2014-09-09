@@ -31,11 +31,11 @@ Often the ideal radiation patterns fall into three basic categories:
 
 
 
-.. image:: ./images/penc1.*
-	:scale: 40 %
+.. figure:: ./images/penc1.*
+	:width: 400
 	
-.. image:: ./images/sqp_pat.*
-	:scale: 43 %
+.. figure:: ./images/sqp_pat.*
+	:width: 400
 
 Reflectarray Radiation Pattern Synthesis 
 -----------------------------------------

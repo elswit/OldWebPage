@@ -6,13 +6,13 @@ Curriculum Vitae
 -----------------
 
 
-.. figure:: ./images/fancygif1.gif
-	:scale: 60 %
-	:align: right
+.. image:: ./images/fancygif1.gif
+   :width: 400
+   :align: right
 
 
 .. toctree::
-	:maxdepth: 2
+	:maxdepth: 1
 
 	bio
 
@@ -23,12 +23,14 @@ High Performance Computing
 
 
 .. toctree::
-     HPC
+   :maxdepth:1
+
+   HPC
 
 
 .. figure:: ./images/fancy1.png
-	:scale: 30 %
-	:align: right
+   :width: 400
+   :align: right
 	
 
 
@@ -37,7 +39,9 @@ Applied Stochastic Optimization
 ---------------------------------
 
 .. toctree::
-	mach
+   :maxdepth:1
+   
+   mach
 
 
 
@@ -47,6 +51,7 @@ Antenna, Propagation and Electromagnetic Simulation
 .. toctree::
 	reflectarray
 	array
+
 
 
 
